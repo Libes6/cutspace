@@ -1,0 +1,32 @@
+
+
+
+
+
+*{
+box-sizing: border-box;
+margin-bottom: 0;
+  padding-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+}
+input, button{
+  font-family: inherit;
+  border: none;
+  background: none;
+  font-size: inherit;
+}
+button{
+  cursor: pointer;
+}
+input:focus{
+  outline: none;
+}
+ul,li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

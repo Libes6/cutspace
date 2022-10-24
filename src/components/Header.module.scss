@@ -1,0 +1,47 @@
+@import 'src/scss/app.scss';
+
+
+.naw {
+padding: 35px 0;
+}
+
+
+
+.naw_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+
+
+}
+
+.navigation {
+  ul{
+    display: flex;
+    gap: 42px;
+    li{
+    }
+  }
+  a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    &:hover {
+      font-size: 16px;
+      line-height: 24px;
+      color: $accent-color;
+      border-bottom: 2px solid $accent-color;
+
+    }
+  }
+}
+.active{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F78434;
+  border-bottom: 2px solid  #F78434;
+}
